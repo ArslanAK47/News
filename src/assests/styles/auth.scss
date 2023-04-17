@@ -1,0 +1,395 @@
+.auth {
+  position: relative;
+  top: 120.8px;
+  width: 1409.5px;
+  height: 691.82px;
+  background-image: url("../image/auth-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  box-shadow: 22px -9px 45px rgba(0, 0, 0, 0.25);
+  // border-top-left-radius: 12px;
+  // border-top-right-radius: 12px;
+  .auth-mark {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    .top {
+      position: absolute;
+      height: 150px;
+      width: 90px;
+    }
+    .down {
+      /* Polygon 3 */
+      position: absolute;
+      height: 150px;
+      width: 90px;
+      top: 70px;
+    }
+    .auth-mark-title-div {
+      position: absolute;
+      display: flex;
+      flex-direction: row;
+      .auth-mark-title-start {
+        /* Your News - In a */
+        position: relative;
+        width: 232px;
+        height: 65px;
+
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 61px;
+        text-align: center;
+
+        color: #000000;
+      }
+      .auth-mark-title-end {
+        /* Your News - In a */
+        position: relative;
+        width: 132px;
+        height: 65px;
+
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 61px;
+        text-align: center;
+
+        color: #ffffff;
+      }
+    }
+  }
+  .auth-title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: start;
+    /* identical to box height */
+
+    color: #191919;
+  }
+
+  .auth-text {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    text-align: start;
+    /* identical to box height */
+    color: #ffffff;
+  }
+  .auth-text-black {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    text-align: start;
+    /* identical to box height */
+    color: #000000;
+  }
+  .auth-input {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 0px 0px 20px;
+    width: 300px;
+    height: 80px;
+
+    background: #191919;
+    border-radius: 5px;
+    border: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    /* identical to box height */
+
+    color: #aaaaaa;
+  }
+  .auth-input::-webkit-input-placeholder {
+    color: #ffffff;
+  }
+  .auth-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    position: relative;
+    width: 120px;
+    height: 30px;
+
+    background: #191919;
+    border-radius: 100px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 14px;
+    /* identical to box height */
+
+    color: #ffffff;
+    border: none;
+  }
+  .auth-button:active {
+    background-color: #0000008f;
+    border: solid 1px #ffffff;
+  }
+  .auth-button:focus {
+    background-color: #000000af;
+    border: solid 1px #919191;
+  }
+  .auth-checkbox {
+    position: relative;
+
+    width: 16px;
+    height: 16px;
+
+    background: rgba(25, 25, 25, 0.2);
+    box-shadow: 22px -9px 45px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+  }
+
+  .signup {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    .signup-info-div {
+      position: relative;
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      justify-content: center;
+      .signup-info-div-x-space {
+        width: 25%;
+        height: 100%;
+      }
+      .signup-info-main-div {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        .signup-info-main-top-space {
+          width: 100%;
+          height: 11%;
+        }
+        .signup-title {
+          height: 8%;
+        }
+        .signup-text {
+          height: 4%;
+          width: 100%;
+        }
+        .signup-item-space {
+          height: 7.5%;
+          width: 100%;
+        }
+        .signup-item-space-half {
+          height: 4.2%;
+          width: 100%;
+        }
+        .signup-button {
+          height: 8.4%;
+          width: 40%;
+          left: 30%;
+        }
+
+        .signup-input {
+          height: 8.4%;
+          width: 100%;
+        }
+        .signup-agree {
+          display: flex;
+          flex-direction: row;
+          text-align: center;
+        }
+        .signup-account-question {
+          text-align: center;
+        }
+        .signup-info-main-bottom-space {
+          width: 100%;
+          height: 13%;
+        }
+      }
+    }
+    .signup-mark-div {
+      position: relative;
+      width: 50%;
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+    }
+  }
+  .login {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    .login-info-div {
+      position: relative;
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      justify-content: center;
+      .login-info-div-x-space {
+        width: 25%;
+        height: 100%;
+      }
+      .login-info-main-div {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        .login-info-main-top-space {
+          width: 100%;
+          height: 11%;
+        }
+        .login-title {
+          height: 8%;
+        }
+        .login-text {
+          height: 4%;
+          width: 100%;
+        }
+        .login-item-space {
+          height: 7.5%;
+          width: 100%;
+        }
+        .login-item-space-half {
+          height: 4.2%;
+          width: 100%;
+        }
+        .login-button {
+          height: 8.4%;
+          width: 40%;
+          left: 30%;
+        }
+
+        .login-input {
+          height: 8.4%;
+          width: 100%;
+        }
+        .login-agree {
+          display: flex;
+          flex-direction: row;
+          text-align: center;
+        }
+        .login-account-question {
+          text-align: center;
+        }
+        .login-info-main-bottom-space {
+          width: 100%;
+          height: 13%;
+        }
+      }
+    }
+    .login-mark-div {
+      position: relative;
+      width: 50%;
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+    }
+  }
+  .forgotpwd {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    .forgotpwd-info-div {
+      position: relative;
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      justify-content: center;
+      .forgotpwd-info-div-x-space {
+        width: 25%;
+        height: 100%;
+      }
+      .forgotpwd-info-main-div {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        .forgotpwd-info-main-top-space {
+          width: 100%;
+          height: 11%;
+        }
+        .forgotpwd-title {
+          height: 8%;
+        }
+        .forgotpwd-text {
+          height: 4%;
+          width: 100%;
+        }
+        .forgotpwd-item-space {
+          height: 7.5%;
+          width: 100%;
+        }
+        .forgotpwd-item-space-half {
+          height: 4.2%;
+          width: 100%;
+        }
+        .forgotpwd-button {
+          height: 8.4%;
+          width: 40%;
+          left: 30%;
+        }
+
+        .forgotpwd-input {
+          height: 8.4%;
+          width: 100%;
+        }
+        .forgotpwd-agree {
+          display: flex;
+          flex-direction: row;
+          text-align: center;
+        }
+        .forgotpwd-account-question {
+          text-align: center;
+        }
+        .forgotpwd-info-main-bottom-space {
+          width: 100%;
+          height: 13%;
+        }
+      }
+    }
+    .forgotpwd-mark-div {
+      position: relative;
+      width: 50%;
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+    }
+  }
+}
+.auth-signup {
+  background-image: url("../image/auth-bg-signup.png") !important;
+}
